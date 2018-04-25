@@ -23,7 +23,8 @@ var uiHost        = process.env.RED_HOST     || '0.0.0.0'
 var httpAdminRoot = process.env.RED_ADM_PATH || '/admin'
 var httpStatic    = process.env.RED_STC_PATH || '/static/'
 var username      = process.env.RED_USERNAME || 'admin'
-var password      = process.env.RED_PASSWORD || '$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN.'
+var password      = process.env.RED_PASSWORD || '$2a$08$9f8Lx3vH08IGiDP7/.b6pe7pune1wI8HN3sf0yTGpB6vkQ9iTEqTy'
+
 
 module.exports = {
     // the tcp port that the Node-RED web server is listening on
