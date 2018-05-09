@@ -37,7 +37,7 @@ RUN echo "Port $SSH_PORT" >> /etc/ssh/sshd_config \
 RUN npm install wetty -g \
  && export WTY_PORT=$WTY_PORT
 
-USER $USERNAME
+USER node-red
 EXPOSE $RED_PORT $WTY_PORT
 VOLUME /data
 
