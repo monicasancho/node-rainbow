@@ -23,7 +23,7 @@ var uiHost        = process.env.RED_HOST     || '0.0.0.0'
 var httpAdminRoot = process.env.RED_ADM_PATH || '/admin'
 var httpStatic    = process.env.RED_STC_PATH || '/static/'
 var username      = process.env.RED_USERNAME || 'admin'
-var password      = process.env.RED_PASSWORD || '$2a$08$9f8Lx3vH08IGiDP7/.b6pe7pune1wI8HN3sf0yTGpB6vkQ9iTEqTy'
+var password      = process.env.RED_PASSWORD || '$2a$08$24p6GTN.njcKM15UisWvduGOj1uDcvwrS6ZU1Szl3L5LBMzCB.h1S'
 
 
 module.exports = {
