@@ -39,7 +39,7 @@ RUN npm install wetty -g \
 
 USER node-red
 EXPOSE $RED_PORT $WTY_PORT
-VOLUME /data
+#VOLUME /data
 
 ADD entrypoint.sh /
 ENTRYPOINT  ["dumb-init","/entrypoint.sh"]
