@@ -211,7 +211,7 @@ module.exports = {
     //    context.global.os
 
     functionGlobalContext: {
-        require: require,
+        require: require
         // os:require('os'),
         // octalbonescript:require('octalbonescript'),
         // jfive:require("johnny-five"),
