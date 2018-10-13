@@ -12,7 +12,8 @@ RUN apk --no-cache upgrade \
  && apk --no-cache add \
     cmake libuv-dev build-base \
     sudo bash wget curl openssh git \
-    python
+    python \
+    ffmpeg
 
 RUN adduser -D -G root -s /bin/bash -h /home/$USERNAME $USERNAME \
  && echo "$USERNAME:$PASSWORD" | chpasswd \
