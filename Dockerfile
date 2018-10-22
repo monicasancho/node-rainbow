@@ -34,7 +34,7 @@ RUN echo "Port $SSH_PORT" >> /etc/ssh/sshd_config \
  && export SSH_PORT=$SSH_PORT
 
 USER node-red
-EXPOSE $RED_PORT $WTY_PORT
+EXPOSE $RED_PORT
 VOLUME /data
 
 ADD entrypoint.sh /
