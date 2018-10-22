@@ -35,6 +35,7 @@ RUN echo "Port $SSH_PORT" >> /etc/ssh/sshd_config \
 
 USER node-red
 EXPOSE $RED_PORT
+VOLUME /var/log/pods
 VOLUME /data
 
 ADD entrypoint.sh /
