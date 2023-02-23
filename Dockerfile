@@ -13,6 +13,7 @@ RUN curl -Lo /usr/local/bin/dumb-init https://github.com/Yelp/dumb-init/releases
  && chmod +x /usr/local/bin/dumb-init
 
 USER node-red
+VOLUME /data
 ADD settings.js /data
 ADD index.html /static/index.html
 ADD entrypoint.sh /
