@@ -22,8 +22,8 @@ var uiPort        = process.env.RED_PORT     || 1880
 var uiHost        = process.env.RED_HOST     || '0.0.0.0'
 var httpAdminRoot = process.env.RED_ADM_PATH || '/admin'
 var httpStatic    = process.env.RED_STC_PATH || '/static/'
-var username      = process.env.RED_USERNAME || 'admin'
-var password      = process.env.RED_PASSWORD || '$2a$08$24p6GTN.njcKM15UisWvduGOj1uDcvwrS6ZU1Szl3L5LBMzCB.h1S'
+var username      = process.env.RED_USERNAME || 'monicasancho'
+var password      = process.env.RED_PASSWORD || '$2a$08$05GiBQD/z6akjDFwJTX1DOhhgFypvaKEXzfii4.Gj4ncJ5Oeyn5W6'
 
 
 module.exports = {
@@ -108,7 +108,7 @@ module.exports = {
     // When httpAdminRoot is used to move the UI to a different root path, the
     // following property can be used to identify a directory of static content
     // that should be served at http://localhost:1880/.
-    httpStatic: __dirname + httpStatic,
+    httpStatic: httpStatic,
 
     // The maximum size of HTTP request that will be accepted by the runtime api.
     // Default: 5mb
